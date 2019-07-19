@@ -1,0 +1,69 @@
+div.edam-selection {
+    outline-width: 2px;
+    outline-style: solid;
+    outline-color: grey;
+    -moz-outline-radius: 5px;
+    position: absolute;
+    pointer-events: none;
+    top: -999px;
+    left: -999px;
+}
+
+div.edam-selection.edam-data {
+    outline-color: #AA150B;
+}
+
+div.edam-selection.edam-format {
+    outline-color: #FE6813;
+}
+div.edam-selection.edam-operation {
+    outline-color: #002D8C;
+}
+div.edam-selection.edam-topic {
+    outline-color: #2D850E;
+}
+
+.edam-external-link::after {
+    content: '';
+    /*position: absolute;*/
+
+    background:
+            url(data:image/svg+xml;base64,PHN2ZyBhcmlhLWhpZGRlbj0idHJ1ZSIgZm9jdXNhYmxlPSJmYWxzZSIgZGF0YS1wcmVmaXg9ImZhcyIgZGF0YS1pY29uPSJleHRlcm5hbC1saW5rLWFsdCIgY2xhc3M9InN2Zy1pbmxpbmUtLWZhIGZhLWV4dGVybmFsLWxpbmstYWx0IGZhLXctMTgiIHJvbGU9ImltZyIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2aWV3Qm94PSIwIDAgNTc2IDUxMiI+PHBhdGggZmlsbD0iIzMzN2FiNyIgZD0iTTU3NiAyNHYxMjcuOTg0YzAgMjEuNDYxLTI1Ljk2IDMxLjk4LTQwLjk3MSAxNi45NzFsLTM1LjcwNy0zNS43MDktMjQzLjUyMyAyNDMuNTIzYy05LjM3MyA5LjM3My0yNC41NjggOS4zNzMtMzMuOTQxIDBsLTIyLjYyNy0yMi42MjdjLTkuMzczLTkuMzczLTkuMzczLTI0LjU2OSAwLTMzLjk0MUw0NDIuNzU2IDc2LjY3NmwtMzUuNzAzLTM1LjcwNUMzOTEuOTgyIDI1LjkgNDAyLjY1NiAwIDQyNC4wMjQgMEg1NTJjMTMuMjU1IDAgMjQgMTAuNzQ1IDI0IDI0ek00MDcuMDI5IDI3MC43OTRsLTE2IDE2QTIzLjk5OSAyMy45OTkgMCAwIDAgMzg0IDMwMy43NjVWNDQ4SDY0VjEyOGgyNjRhMjQuMDAzIDI0LjAwMyAwIDAgMCAxNi45Ny03LjAyOWwxNi0xNkMzNzYuMDg5IDg5Ljg1MSAzNjUuMzgxIDY0IDM0NCA2NEg0OEMyMS40OSA2NCAwIDg1LjQ5IDAgMTEydjM1MmMwIDI2LjUxIDIxLjQ5IDQ4IDQ4IDQ4aDM1MmMyNi41MSAwIDQ4LTIxLjQ5IDQ4LTQ4VjI4Ny43NjRjMC0yMS4zODItMjUuODUyLTMyLjA5LTQwLjk3MS0xNi45N3oiPjwvcGF0aD48L3N2Zz4=)
+            no-repeat
+            left center;
+    padding: 5px;
+    margin-right: 5px;
+
+}
+
+.edam-tooltip-content {
+    font-size: 12px;
+}
+
+.edam-tooltip-content_version {
+    border-top: 1px solid lightgrey;
+    border-bottom: 1px solid lightgrey;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.edam-tooltip-content_synonyms {
+    border-bottom: 1px solid lightgrey;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+    font-size: 10px;
+}
+
+.edam-tooltip-content_comments {
+    color: #888;
+}
+
+.edam-tooltip-content a {
+    color: #337ab7;
+}
+
+.edam-tooltip-content a:hover {
+    color: cornflowerblue;
+}

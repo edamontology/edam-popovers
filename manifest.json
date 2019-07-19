@@ -1,0 +1,38 @@
+{
+
+  "manifest_version": 2,
+  "name": "EDAM Popovers",
+  "version": "1.0",
+
+  "description": "Adds popovers with the detailed information to EDAM terms.",
+
+  "icons": {
+    "48": "icons/edam-popovers.svg"
+  },
+
+  "permissions": [
+    "activeTab",
+    "storage"
+  ],
+
+  "browser_action": {
+    "default_icon": "icons/edam-popovers.svg",
+    "default_title": "EDAM Popovers",
+    "default_popup": "menu.html"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["edam_data.js", "libs/popper.js", "libs/tippy.js", "edam-popovers.js"],
+      "css": ["edam-popovers.css"]
+    }
+  ],
+
+  "applications": {
+    "gecko": {
+      "id": "edam-popovers@elixir.ut.ee"
+    }
+  }
+
+}
