@@ -2,6 +2,7 @@
 
 **Firefox extension that adds popovers with the detailed information to EDAM terms.**
 
+https://addons.mozilla.org/en-US/firefox/addon/edam-popovers/
 
 ## Authors
 
