@@ -24,7 +24,7 @@
   "content_scripts": [
     {
       "matches": ["<all_urls>"],
-      "js": ["edam_data.js", "libs/popper.js", "libs/tippy.js", "edam-popovers.js"],
+      "js": ["edam_data.js", "libs/browser-polyfill.min.js","libs/popper.js", "libs/tippy.js", "edam-popovers.js"],
       "css": ["edam-popovers.css"]
     }
   ],
