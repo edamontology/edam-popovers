@@ -9,27 +9,21 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
-      
       - name: Build zip
         uses: papeloto/action-zip@v1
         with:
           files: .
           dest: edam-popovers.zip
-      
-      - name: publish chrome
-        uses: trmcnvn/chrome-addon@v2
+      - uses: trmcnvn/chrome-addon@v2
         with:
           zip: edam-popovers.zip
           client-id: ${{ secrets.CHROME_CLIENT_ID }}
           client-secret: ${{ secrets.CHROME_CLIENT_SECRET }}
           refresh-token: ${{ secrets.CHROME_REFRESH_TOKEN }}
-
-      - name: publish firefox
-        uses: trmcnvn/firefox-addon@v1
+      - uses: trmcnvn/firefox-addon@v1
         with:
           uuid: '{edam-popovers@elixir.ut.ee}'
           xpi: edam-popovers.zip
           manifest: manifest.json
           api-key: ${{ secrets.FIREFOX_API_KEY }}
           api-secret: ${{ secrets.FIREFOX_API_SECRET }}
-
