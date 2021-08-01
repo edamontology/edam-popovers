@@ -1,6 +1,6 @@
 # EDAM Popovers
 
-**Firefox extension that adds popovers with the detailed information to EDAM terms.**
+**A Firefox & Chrome extension that displays detailed information about EDAM concepts**
 
 https://addons.mozilla.org/en-US/firefox/addon/edam-popovers/
 
@@ -9,9 +9,10 @@ https://addons.mozilla.org/en-US/firefox/addon/edam-popovers/
 ## Authors
 
 - Ivan Kuzmin [@inkuzmin](https://twitter.com/inkuzmin)
+- Hager Eldakroury [@HagerDakroury](https://github.com/HagerDakroury)
 - Matúš Kalaš [@matuskalas](https://twitter.com/matuskalas)
 - Hervé Ménager [@rvmngr](https://twitter.com/rvmngr)
 
-## Licenses
+## License
 
 MIT
