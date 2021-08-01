@@ -7,7 +7,7 @@
   "description": "Adds popovers with the detailed information to EDAM terms.",
 
   "icons": {
-    "48": "icons/edam-popovers.svg"
+    "48": "icons/edam-popovers.png"
   },
 
   "permissions": [
@@ -16,7 +16,7 @@
   ],
 
   "browser_action": {
-    "default_icon": "icons/edam-popovers.svg",
+    "default_icon": "icons/edam-popovers.png",
     "default_title": "EDAM Popovers",
     "default_popup": "menu.html"
   },
