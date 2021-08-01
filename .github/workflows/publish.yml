@@ -15,16 +15,7 @@ jobs:
         with:
           files: .
           dest: edam-popovers.zip
-
-      - name: publish firefox
-        uses: trmcnvn/firefox-addon@v1
-        with:
-          uuid: 'edam-popovers@elixir.ut.ee'
-          xpi: edam-popovers.zip
-          manifest: manifest.json
-          api-key: ${{ secrets.FIREFOX_API_KEY }}
-          api-secret: ${{ secrets.FIREFOX_API_SECRET }}
-
+      
       - name: publish chrome
         uses: trmcnvn/chrome-addon@v2
         with:
@@ -32,3 +23,13 @@ jobs:
           client-id: ${{ secrets.CHROME_CLIENT_ID }}
           client-secret: ${{ secrets.CHROME_CLIENT_SECRET }}
           refresh-token: ${{ secrets.CHROME_REFRESH_TOKEN }}
+
+      - name: publish firefox
+        uses: trmcnvn/firefox-addon@v1
+        with:
+          uuid: '{edam-popovers@elixir.ut.ee}'
+          xpi: edam-popovers.zip
+          manifest: manifest.json
+          api-key: ${{ secrets.FIREFOX_API_KEY }}
+          api-secret: ${{ secrets.FIREFOX_API_SECRET }}
+
