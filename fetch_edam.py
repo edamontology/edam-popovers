@@ -5,7 +5,7 @@ import csv
 import json
 from urllib.request import urlopen
 
-_VERSION_ = '1.21'
+_VERSION_ = '1.25'
 url = 'http://edamontology.org/EDAM_{}.tsv'.format(_VERSION_)
 
 file = urlopen(url)
