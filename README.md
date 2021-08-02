@@ -1,5 +1,7 @@
 # EDAM Popovers
 
+[![Join the chat at https://gitter.im/edamontology/edam-popovers](https://badges.gitter.im/edamontology/edam-popovers.svg)](https://gitter.im/edamontology/edam-popovers?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 **A Firefox & Chrome extension that displays detailed information about EDAM concepts**
 
 https://addons.mozilla.org/en-US/firefox/addon/edam-popovers/
