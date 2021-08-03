@@ -16,7 +16,7 @@ jobs:
           dest: edam-popovers.zip
       - uses: trmcnvn/chrome-addon@v2
         with:
-          extention: amboeicaknkjjpffmdgkopjfljneolca
+          extension: amboeicaknkjjpffmdgkopjfljneolca
           zip: edam-popovers.zip
           client-id: ${{ secrets.CHROME_CLIENT_ID }}
           client-secret: ${{ secrets.CHROME_CLIENT_SECRET }}
