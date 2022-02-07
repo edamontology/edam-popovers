@@ -15,13 +15,13 @@ jobs:
         with:
           files: .
           dest: edam-popovers.zip
-      - uses: trmcnvn/chrome-addon@v2
-        with:
-          extension: amboeicaknkjjpffmdgkopjfljneolca
-          zip: edam-popovers.zip
-          client-id: ${{ secrets.CHROME_CLIENT_ID }}
-          client-secret: ${{ secrets.CHROME_CLIENT_SECRET }}
-          refresh-token: ${{ secrets.CHROME_REFRESH_TOKEN }}
+#      - uses: trmcnvn/chrome-addon@v2
+#        with:
+#          extension: amboeicaknkjjpffmdgkopjfljneolca
+#          zip: edam-popovers.zip
+#          client-id: ${{ secrets.CHROME_CLIENT_ID }}
+#          client-secret: ${{ secrets.CHROME_CLIENT_SECRET }}
+#          refresh-token: ${{ secrets.CHROME_REFRESH_TOKEN }}
       - uses: trmcnvn/firefox-addon@v1
         with:
           uuid: '{edam-popovers@elixir.ut.ee}'
