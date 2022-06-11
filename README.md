@@ -4,9 +4,16 @@
 
 **A Firefox & Chrome extension that displays detailed information about EDAM concepts**
 
-https://addons.mozilla.org/en-US/firefox/addon/edam-popovers/
+Firefox: https://addons.mozilla.org/en-US/firefox/addon/edam-popovers/
+Chrome: https://chrome.google.com/webstore/detail/edam-popovers/amboeicaknkjjpffmdgkopjfljneolca
 
 <img src="https://pbs.twimg.com/media/D-xw245WkAAN7Tq?format=jpg&name=4096x4096" alt="EDAM Popovers mock-up" height="300"/><img src="https://lh3.googleusercontent.com/mA-t-wWBDPhlt1IqS3XUCloKDJn9qobHIc2QvuNRPw8_hyqIQxx3wblrdKqQKYIL-dU_TKljFYmVrWUDPbYKLgp61g=w640-h400-e365-rj-sc0x00ffffff" alt="EDAM Popovers screenshot" height="300"/>
+
+## Contributions
+
+Contributions to EDAM Popovers are very welcome. Feel free to reach out on [gitter](https://gitter.im/edamontology/edam-popovers) if you have any questions! 
+
+Here is a [quick guide](https://github.com/edamontology/edam-popovers/blob/docs/contribution.md#firefox) to load and debug the extention.
 
 ## Authors
 
