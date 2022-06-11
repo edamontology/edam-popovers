@@ -6,7 +6,7 @@
 
 https://addons.mozilla.org/en-US/firefox/addon/edam-popovers/
 
-<img src="https://pbs.twimg.com/media/D-xw245WkAAN7Tq?format=jpg&name=4096x4096" alt="EDAM Popovers mock-up" height="300"/><img src="https://addons.cdn.mozilla.net/user-media/previews/full/222/222432.png" alt="EDAM Popovers screenshot" height="300"/>
+<img src="https://pbs.twimg.com/media/D-xw245WkAAN7Tq?format=jpg&name=4096x4096" alt="EDAM Popovers mock-up" height="300"/><img src="https://lh3.googleusercontent.com/mA-t-wWBDPhlt1IqS3XUCloKDJn9qobHIc2QvuNRPw8_hyqIQxx3wblrdKqQKYIL-dU_TKljFYmVrWUDPbYKLgp61g=w640-h400-e365-rj-sc0x00ffffff" alt="EDAM Popovers screenshot" height="300"/>
 
 ## Authors
 
