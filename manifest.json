@@ -2,7 +2,7 @@
 
   "manifest_version": 2,
   "name": "EDAM Popovers",
-  "version": "2.1",
+  "version": "2.3",
 
   "description": "Adds popovers with the detailed information to EDAM terms.",
 
