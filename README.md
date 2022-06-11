@@ -20,6 +20,7 @@ Here is a [quick guide](https://github.com/edamontology/edam-popovers/blob/main/
 
 - Ivan Kuzmin [@inkuzmin](https://twitter.com/inkuzmin)
 - Hager Eldakroury [@HagerDakroury](https://github.com/HagerDakroury)
+- Lucie Lamothe [@LucieLamothe](https://github.com/LucieLamothe)
 - Matúš Kalaš [@matuskalas](https://twitter.com/matuskalas)
 - Hervé Ménager [@rvmngr](https://twitter.com/rvmngr)
 
