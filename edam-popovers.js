@@ -122,7 +122,7 @@
                                     NCBO
                                     </a>
                                     <a class="edam-external-link" target="_blank"
-                                     href="https://ifb-elixirfr.github.io/edam-browser/#${edamUri}">
+                                     href="https://edamontology.github.io/edam-browser/#${edamUri}">
                                     IFB
                                     </a>
                                     <a class="edam-external-link" target="_blank"
