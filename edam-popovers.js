@@ -62,22 +62,35 @@
         }
 
         document.documentElement.addEventListener('mouseup', (e) => {
-
             if (document.querySelector('.edam-tooltip-content') && document.querySelector('.edam-tooltip-content').contains(e.target)) {
                 return;
             }
 
-            let selection = getSelection();
+            reset();
+            let text = "";
+            let rangeRect = null;
 
+            // Chrome
+            if (!text.length) {
+                let selection = getSelection();
 
-            if (!selection.isCollapsed && selection.rangeCount > 0) {
-                let range = selection.getRangeAt(0);
-                let rangeRect = range.getBoundingClientRect();
+                if (!selection.isCollapsed && selection.rangeCount > 0) {
+                    let range = selection.getRangeAt(0);
+                    rangeRect = range.getBoundingClientRect();
 
-                let text = document.getSelection().toString();
+                    text = document.getSelection().toString();
+                }
+            }
 
-                if (text.length > 0) {
+            // Firefox textareas and inputs
+            if (!text.length) {
+                const activeTextarea = document.activeElement;
+                text = activeTextarea.value.substring(
+                    activeTextarea.selectionStart, activeTextarea.selectionEnd
+                );
+            }
 
+            if (text.length) {
                     let match = text.match(/(data_|format_|topic_|operation_)\d{1,4}/);
 
                     if (match) {
@@ -140,6 +153,15 @@
                         tooltip.show();
                         setTimeout(() => tooltip.show())
 
+                        if (!rangeRect) {
+                            rangeRect = {
+                                top: e.clientY,
+                                left: e.clientX,
+                                width: 0,
+                                height: 0,
+                            }
+                        }
+
                         div.style.top = (rangeRect.top + window.scrollY) +'px';
                         div.style.left = (rangeRect.left + window.scrollX) + 'px';
                         div.style.width = rangeRect.width + 'px';
@@ -151,9 +173,6 @@
                 } else {
                     reset();
                 }
-            } else {
-                reset();
-            }
         });
     }
 
